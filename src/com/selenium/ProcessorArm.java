@@ -19,7 +19,7 @@ import static com.selenium.Constant.PROCESSOR_USING;
 
         @Override
         public String dataProcess(long data) {
-            return String.format(PROCESSOR_USING, ARCHITECTURE, data).toLowerCase();
+            return String.format(PROCESSOR_USING, ARCHITECTURE, data).toUpperCase();
         }
 
         @Override
